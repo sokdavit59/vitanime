@@ -37,7 +37,7 @@ nav ul li:hover a{
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;

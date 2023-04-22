@@ -4,22 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>image</title>
-    <link rel="stylesheet" href="mb.css">
+    <link rel="stylesheet"​ href="song.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <title>Musics</title>
 </head>
-<h1  style="font-family:AKbalthom Superhero; color: blue;">WEB IMAGES</h1>
-<body>
-    <p style="background-color: rgb(84, 137, 184);
-    position: relative;left: ;color:  ;
-    height:px;font-family: Algerian;"   >ANIMES</p>
+<nav>
+  <ul>
+    <li><a href="file:///C:/Users/Dell/Desktop/song/vanda.html"><strong>Vanda</strong></a></li>
+    <li><a href="file:///C:/Users/Dell/Desktop/song/vanda.html" ><strong>Dit-way</strong></a></li>
+    <li>  <a href="file:///C:/Users/Dell/Desktop/song/vanda.html" ><strong>Tena</strong></a></li>
+    <li>  <a href="file:///C:/Users/Dell/Desktop/song/vanda.html" ><strong>Lacima</strong></a></li>
+           </ul>
+</nav>
+<body >
+  
+  <div class="container">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="p5.jpg"></div>
+        <div class="swiper-slide"><img src="p6.jpg"></div>
+        <div class="swiper-slide"><img src="p7.jpg"></div>
+        <div class="swiper-slide"><img src="p8.jpg"></div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+  
+ 
+  loop: true,
 
-    <img src="p3.JPG" style="width:200px"></img>
-    <img src="p4.jpg" style="width: 200px;height: 267px;"></img>
-    <img src="p5.jpg" style="width:200px;"></img>
-    <img src="p6.jpg" style="width:200px;height: 200px;></img>
-    <img src="p7.jpg" style="width:200px;"></img>
-    <img src="p8.jpg" style="width:200px;" ></img>
-    <img src="p10.jpg" style="width:200px;height: 433px;"></img>
-                                                         <img src="p11.jpg"></img>
-</body>
+  
+  pagination: {
+    el: '.swiper-pagination',
+    
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+
+  },
+);
+  </script>
+  </body>
 </html>
